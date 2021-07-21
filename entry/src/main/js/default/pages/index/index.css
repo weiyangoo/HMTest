@@ -1,0 +1,28 @@
+@import '../../common/css/common.css';
+.index-container{
+    /* flex布局纵向*/
+    flex-direction: column;
+
+    /* 水平垂直居中*/
+    align-items: center;
+    justify-content: flex-start;
+}
+button{
+    background-color: #009999;
+    margin: 10px 0;
+    text-color: #eeba4d;
+}
+@media screen and (device-type: phone){
+    button{
+        background-color: #009999;
+        margin: 10px 0;
+        text-color: #eeba4d;
+    }
+}
+@media screen and(device-type: wearable){
+    button{
+        background-color: #009999;
+        margin: 10px 0;
+        text-color: #e3483b;
+    }
+}

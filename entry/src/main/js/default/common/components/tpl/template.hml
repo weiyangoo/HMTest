@@ -1,0 +1,11 @@
+<div class="header-container">
+    <text class='title'>
+        <span>{{text}}</span>
+    </text>
+    <text class='title'>
+        <span>{{copyRight}}</span>
+    </text>
+    <text class='title'>
+        <span>{{changeTxt}}</span>
+    </text>
+</div>

@@ -1,0 +1,8 @@
+<element name="ha" src="../../common/components/tpl/template">
+</element>
+<div class="details-container">
+  <ha text="详情页"></ha>
+  <text class="txt">
+    <span>degg</span>
+  </text>
+</div>

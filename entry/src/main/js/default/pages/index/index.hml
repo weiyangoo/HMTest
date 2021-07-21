@@ -1,0 +1,42 @@
+<element name="header" src="../../common/components/tpl/template">
+</element>
+<div class="index-container">
+<!--    <div class="index-content">-->
+     <header text="{{txt}}" copy-right="copyRight in test"></header>
+
+     <text show="{{!isShow}}" class="txt">
+         <span>{{title}}</span>
+     </text>
+<!--    </div>-->
+     <button type="capsule" @click="handleClick('haha')">
+        进入下一页
+     </button>
+     <text for="{{(index,abc) in fruits}}">
+     <!--         <span>{{$idx}} - {{$item}}</span>-->
+         <span>{{index}} - {{abc}}</span>
+     </text>
+    <block>
+        <div if="isShow">
+            <div>
+                <text>
+                    <span>string1</span>
+                </text>
+            </div>
+        </div>
+        <div else>
+            <div>
+                <text>
+                    <span>string2</span>
+                </text>
+            </div>
+        </div>
+    </block>
+    <div>
+        <text>
+            <span>{{$r('colors.background')}}</span>
+        </text>
+    </div>
+    <div>
+        <qrcode value="https://huawei.com"></qrcode>
+    </div>
+</div>

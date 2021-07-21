@@ -1,0 +1,8 @@
+{
+  "image": {
+    "clockFace": "common/dark_face.png"
+  },
+  "colors": {
+    "background": "#000000"
+  }
+}
